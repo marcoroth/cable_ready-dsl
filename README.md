@@ -63,7 +63,7 @@ class YourReflex < ApplicationReflex
   def increment
     dom('#posts').morph('<p>Your HTML</p>')
 
-    css('#posts').morph('<p>Your HTML</p>')
+    selector('#posts').morph('<p>Your HTML</p>')
 
     id('posts').morph('<p>Your HTML</p>')
 
