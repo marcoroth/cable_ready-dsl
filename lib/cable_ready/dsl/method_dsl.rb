@@ -7,6 +7,10 @@ module CableReady
         ::CableReady::Dsl::SelectorString.new(selector)
       end
 
+      def selector(selector)
+        dom(selector)
+      end
+      
       def css(selector)
         dom(selector)
       end
