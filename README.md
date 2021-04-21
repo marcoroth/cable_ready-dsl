@@ -54,7 +54,7 @@ class YourReflex < ApplicationReflex
 end
 ```
 
-### Method DSL
+### DOM-Method DSL
 
 ```ruby
 class YourReflex < ApplicationReflex
